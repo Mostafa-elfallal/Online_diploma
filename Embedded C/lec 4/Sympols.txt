@@ -1,0 +1,113 @@
+
+main.o:     file format elf32-littlearm
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 main.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .debug_info	00000000 .debug_info
+00000000 l    d  .debug_abbrev	00000000 .debug_abbrev
+00000000 l    d  .debug_loc	00000000 .debug_loc
+00000000 l    d  .debug_aranges	00000000 .debug_aranges
+00000000 l    d  .debug_line	00000000 .debug_line
+00000000 l    d  .debug_str	00000000 .debug_str
+00000000 l    d  .debug_frame	00000000 .debug_frame
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000 g     F .text	00000082 main
+
+
+
+startup.o:     file format elf32-littlearm
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 startup.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l       .bss	00000000 Stack_top
+00000000 l    d  .vectors	00000000 .vectors
+00000000 l    d  .debug_info	00000000 .debug_info
+00000000 l    d  .debug_abbrev	00000000 .debug_abbrev
+00000000 l    d  .debug_loc	00000000 .debug_loc
+00000000 l    d  .debug_aranges	00000000 .debug_aranges
+00000000 l    d  .debug_line	00000000 .debug_line
+00000000 l    d  .debug_str	00000000 .debug_str
+00000000 l    d  .debug_frame	00000000 .debug_frame
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000 g     F .text	0000000a Default_Handler
+0000000c g     F .text	000000b0 Reset_Handler
+00000000  w    F .text	0000000a NMI_Handler
+00000000 g     O .vectors	0000000c g_p_fc_Vectors
+00000000         *UND*	00000000 _E_data
+00000000         *UND*	00000000 _S_data
+00000000         *UND*	00000000 _E_text
+00000000         *UND*	00000000 _E_bss
+00000000         *UND*	00000000 _S_bss
+00000000         *UND*	00000000 main
+
+
+
+lec4.elf:     file format elf32-littlearm
+
+SYMBOL TABLE:
+00000000 l    d  .text	00000000 .text
+20000000 l    d  .bss	00000000 .bss
+00000000 l    d  .debug_info	00000000 .debug_info
+00000000 l    d  .debug_abbrev	00000000 .debug_abbrev
+00000000 l    d  .debug_loc	00000000 .debug_loc
+00000000 l    d  .debug_aranges	00000000 .debug_aranges
+00000000 l    d  .debug_line	00000000 .debug_line
+00000000 l    d  .debug_str	00000000 .debug_str
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000 l    d  .debug_frame	00000000 .debug_frame
+00000000 l    df *ABS*	00000000 startup.c
+20000000 l       .bss	00000000 Stack_top
+00000000 l    df *ABS*	00000000 main.c
+00000000 l    df *ABS*	00000000 
+00000090  w    F .text	0000000a NMI_Handler
+20000000 g       .text	00000000 _E_data
+20000000 g       .text	00000000 _S_data
+20000400 g       .bss	00000000 _E_bss
+0000009c g     F .text	000000b0 Reset_Handler
+00000090 g     F .text	0000000a Default_Handler
+20000000 g       .bss	00000000 _S_bss
+0000000c g     F .text	00000082 main
+00000000 g     O .text	0000000c g_p_fc_Vectors
+0000014c g       .text	00000000 _E_text
+
+
+
+lec4.axf:     file format elf32-littlearm
+
+SYMBOL TABLE:
+00000000 l    d  .text	00000000 .text
+20000000 l    d  .bss	00000000 .bss
+00000000 l    d  .debug_info	00000000 .debug_info
+00000000 l    d  .debug_abbrev	00000000 .debug_abbrev
+00000000 l    d  .debug_loc	00000000 .debug_loc
+00000000 l    d  .debug_aranges	00000000 .debug_aranges
+00000000 l    d  .debug_line	00000000 .debug_line
+00000000 l    d  .debug_str	00000000 .debug_str
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000 l    d  .debug_frame	00000000 .debug_frame
+00000000 l    df *ABS*	00000000 startup.c
+20000000 l       .bss	00000000 Stack_top
+00000000 l    df *ABS*	00000000 main.c
+00000000 l    df *ABS*	00000000 
+00000090  w    F .text	0000000a NMI_Handler
+20000000 g       .text	00000000 _E_data
+20000000 g       .text	00000000 _S_data
+20000400 g       .bss	00000000 _E_bss
+0000009c g     F .text	000000b0 Reset_Handler
+00000090 g     F .text	0000000a Default_Handler
+20000000 g       .bss	00000000 _S_bss
+0000000c g     F .text	00000082 main
+00000000 g     O .text	0000000c g_p_fc_Vectors
+0000014c g       .text	00000000 _E_text
+
+
