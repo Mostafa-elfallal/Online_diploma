@@ -1,0 +1,10 @@
+101 mohamed ahmed 2.35 2 3 4 5 6 7 8
+202 ahmed mostafa 3.65 2 5 3 9 9 6 3
+300 mohamed hesham 2.35 2 5 3 6 1
+301 mostafa AHmed 2.32 1 2 5
+102 mohamed ahmed 2.35 2 3 4 5 6 7 8
+203 ahmed mostafa 3.65 2 5 3 9 9 6 3
+106 mohamed ahmed 2.35 2 3 4 5 6 7 8
+207 ahmed mostafa 5.65 2 5 3 9 9 6 3
+308 mark abram 2.35 2 5 3 6 1
+309 khalid nabawy 3.32 
