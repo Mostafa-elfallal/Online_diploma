@@ -16,6 +16,11 @@ void (* const g_p_fc_Vectors[])() __attribute__((section(".vectors"))) =
 {
 	(void (*)()) ((unsigned long)Stack_top + sizeof(Stack_top)),
 	&Reset_Handler,
+	&NMI_Handler,
+	&NMI_Handler,
+	&NMI_Handler,
+	&NMI_Handler,
+	&NMI_Handler,
 	&NMI_Handler
 };
 
